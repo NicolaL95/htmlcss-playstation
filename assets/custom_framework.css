@@ -100,6 +100,14 @@
 .p_20px{
  padding-top: 20px;
 }
+
+.p_10px{
+      padding: 0 10px;
+}
+
+.py_8px{
+  padding: 8px 0px;
+}
    /* Simboli */
 
 /* Font-weight */
@@ -107,6 +115,19 @@
   font-weight: 700;
 }
 
+/* Font-size */
+.fs_09{
+  font-size: 0.9rem;
+}
+
+/* Z-Index */
+.z_1{
+  z-index: 1;
+}
+
+.z_0{
+  z-index: 0;
+}
 /* Utility */
 
 
