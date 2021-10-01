@@ -37,6 +37,10 @@
   color: lightgray;
 }
 
+.text_azure{
+  color: #2D64E6;
+}
+
 /* Immagini */
 
 /* immagine posizionata destra */
@@ -57,6 +61,10 @@
   border-radius: 25px;
   padding: 5px;
 }
+
+.border_button{
+  border-radius: 25px;
+}
  /* Formattazione testo */
  
 .text_left{
@@ -70,9 +78,22 @@
     filter: opacity(0.7);
 }
 
-/* Backggound-color */
+/* Background-color */
 .bg_lightdark{
   background-color: #1F1F1F; 
+}
+
+.bg_lighgray{
+  background-color: #BEBCBB;
+
+}
+
+.bg_darkblue{
+  background-color: #161C3B; 
+}
+
+.bg_azure{
+ background-color: #00439C; 
 }
 
 /* Padding */
@@ -80,6 +101,11 @@
  padding-top: 20px;
 }
    /* Simboli */
+
+/* Font-weight */
+.fw_700{
+  font-weight: 700;
+}
 
 
 /* Formattazione colonne */

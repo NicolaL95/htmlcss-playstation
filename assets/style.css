@@ -36,6 +36,16 @@ body{
     margin-left: -10px;
 }
 
+.hero_logo_ps{
+    width: 230px;
+    margin-left: -10px;
+ 
+}
+
+.ps_logo{
+       display: inline-block;
+}
+
 .hero_content{
         bottom: 0;
 }
@@ -82,3 +92,7 @@ border-radius: 10px;
    border-radius: 25px;
 }
 
+.h_300{
+    height: 300px;
+
+}
