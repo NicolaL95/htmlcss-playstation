@@ -20,7 +20,7 @@ body{
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  height: 400px;
     width: 100%;
     position: relative;
 }
@@ -54,6 +54,14 @@ border-radius: 10px;
 .fs_al{
     font-size: 2.5rem;
 }
+
+.fs_al span{
+    font-size: 1rem;
+    right: 74px;
+    bottom: 17px;
+    position: absolute;
+}
+
 
 .ps_item{
     width: 33%
