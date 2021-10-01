@@ -11,11 +11,81 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/custom_framework.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <div class="logo_container bg-black">
 
+            <img class="w_10_per right_side mb-1" src="./img/sony_logo.svg" alt="Logo Sony">
+        </div>
+        <nav class="navbar navbar-expand-md  bg-white w-100">
+            <img class="h-30px" src="./img/play_logo.svg" alt="Playstation Logo">
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars c_lg"></i></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="hero_background">
+            <div class="container">
+                <div class="row">
+                    <div class="hero_content position-absolute text-white">
+                        <img class="hero_logo" src="./img/returnal-hero-banner-logo.png" alt="">
+                        <h2 class="hero_title mb-4">Rompi il cerchio</h2>
+                        <p class="hero_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veniam
+                            consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
+                        <button class="orange_b text-white border-0 mb-4" type="button">Acquista ora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                </div>
+                <div class="col-6">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
+                </div>
+                <div class="col-6">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                </div>
+                <div class="col-6">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
+                </div>
+                <div class="col-6">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                </div>
+                <div class="col-6">
+                    <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Returnal">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
