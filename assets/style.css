@@ -15,11 +15,62 @@ body{
     position: relative;
 }
 
+.hero_background_iit{
+    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+
 .hero_logo{
     width: 230px;
+    margin-left: -10px;
+}
+
+.hero_logo_iit{
+    width: 175px;
     margin-left: -10px;
 }
 
 .hero_content{
         bottom: 0;
 }
+
+.showcase_size{
+width: 100%;
+border-radius: 10px;
+}
+
+.fs_vs{
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.fs_al{
+    font-size: 2.5rem;
+}
+
+.ps_item{
+    width: 33%
+}
+
+.ps_item img{
+    width: 100%;
+}
+
+.ps_item p{
+    display: none;
+}
+
+.line{
+    width: 100%;
+    height: 5px;
+   background-color: #2D64E6;
+   border-radius: 25px;
+}
+
