@@ -97,9 +97,26 @@ border-radius: 10px;
 
 }
 
+.t_17{
+    top: 17%;
+}
+
 
 /* Footer */
 .footer_link a{
     text-decoration: none;
     color: white;
+}
+
+
+@media screen and (min-width: 768px){
+  
+.ps_item{
+    width: 20%
+}
+
+.hero_desc{
+    width: 90%;
+}
+
 }
