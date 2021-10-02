@@ -10,7 +10,7 @@ body{
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
+  height: 450px;
     width: 100%;
     position: relative;
 }
@@ -71,7 +71,9 @@ border-radius: 10px;
     bottom: 35%;
     position: absolute;
 }
-
+.pl_27{
+    padding-left: 27px;
+}
 
 .ps_item{
     width: 33%
@@ -101,7 +103,9 @@ border-radius: 10px;
     top: 17%;
 }
 
-
+.img_md_m{
+    display: none;
+}
 /* Footer */
 .footer_link a{
     text-decoration: none;
@@ -117,6 +121,19 @@ border-radius: 10px;
 
 .hero_desc{
     width: 90%;
+}
+
+.img_md_m{
+    display: block;
+    width: 100%;
+}
+
+.w_50{
+    width: 50%;
+}
+
+.ps_item p {
+    display: block;
 }
 
 }
