@@ -62,6 +62,12 @@
   padding: 5px;
 }
 
+.ldark_b{
+ border-radius: 25px;
+  padding: 5px; 
+}
+
+
 .border_button{
   border-radius: 25px;
 }
@@ -102,6 +108,8 @@
 
 
 /* Margin */
+  ml_0
+    margin-left: 0;
 
 /* Padding */
 .p_20px{

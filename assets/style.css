@@ -10,7 +10,7 @@ body{
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 500px;
     width: 100%;
     position: relative;
 }
@@ -20,7 +20,7 @@ body{
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 500px;
     width: 100%;
     position: relative;
 }
@@ -32,7 +32,7 @@ body{
 }
 
 .hero_logo_iit{
-    width: 175px;
+    width: 250px;
     margin-left: -10px;
 }
 
@@ -48,6 +48,7 @@ body{
 
 .hero_content{
         bottom: 0;
+        
 }
 
 .showcase_size{
@@ -62,7 +63,7 @@ border-radius: 10px;
 }
 
 .fs_al{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 
 .fs_al span{
@@ -112,6 +113,13 @@ border-radius: 10px;
     color: white;
 }
 
+.h_60px{
+    height: 60px;
+}
+
+.h_40px{
+    height: 40px;
+}
 
 @media screen and (min-width: 768px){
   
@@ -153,5 +161,27 @@ border-radius: 10px;
     padding-top: 0;
     padding-bottom: 0;
 }
+.fs_al{
+    font-size: 2.5rem;
+}
 
+.link_social_size{
+    width: 75%!important;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+.mt_50px{
+    margin-top: 65px;
+}
+
+.w_lg-50{
+    width: 500px!important;
+}
+.link_social_size{
+    width: 50%!important;
+    margin: 0 auto;
+}
 }
