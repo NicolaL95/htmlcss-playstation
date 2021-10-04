@@ -103,14 +103,16 @@
 }
 
 /* width */
-
-
+/* pulsanti */
+.c_p{
+  cursor: pointer;
+}
 
 
 /* Margin */
-  ml_0
+  ml_0{
     margin-left: 0;
-
+  }
 /* Padding */
 .p_20px{
  padding-top: 20px;

@@ -3,6 +3,21 @@ body{
 }
 
 
+/* HEADER */
+ .nav-item i{
+     color: gray;
+     font-size: 0.6rem;
+ }
+
+.pl_h{
+ padding-right: 5px!important;
+}
+
+.pl_h_li{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
 /* MAIN */
 
 .hero_background{
@@ -76,6 +91,10 @@ border-radius: 10px;
     padding-left: 27px;
 }
 
+.up_hover{
+    transition: 0.5s;
+}
+
 .ps_item{
     width: 33%
 }
@@ -120,6 +139,17 @@ border-radius: 10px;
 .h_40px{
     height: 40px;
 }
+
+/* hover */
+.up_hover:hover{
+    margin-top: -10px;
+
+}
+
+.f_o_7:hover{
+    filter: brightness(120%);
+}
+/* Media query */
 
 @media screen and (min-width: 768px){
   
