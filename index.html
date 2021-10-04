@@ -22,7 +22,7 @@
 
             <img class="w_100px right_side p-2" src="./img/sony_logo.svg" alt="Logo Sony">
         </div>
-        <nav class="navbar navbar-expand-lg  bg-white w-100 p_10px">
+        <nav class="navbar navbar-expand-lg  bg-white w-100 p_10px z_1">
             <img class="" src="./img/play_logo.svg" alt="Playstation Logo">
             <button class="navbar-toggler d-lg-none border" type="button" data-bs-toggle="collapse"
                 data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,62 +31,261 @@
 
                 <ul class="navbar-nav ms-auto mt-2 mt-lg-0 m-lg-0">
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Giochi</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" href="#giochi"
+                            data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="giochi">
+                            Giochi</a>
+                        <i class="fas fa-chevron-down"></i>
+
+                    </li>
+                    <li class="nav-item d-flex align-items-center pl_h_li">
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#hardware" role="button" aria-expanded="false" aria-controls="hardware">
+                            Hardware</a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Hardware</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#servizi" role="button" aria-expanded="false" aria-controls="giochi">Servizi</a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Servizi</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#novità" role="button" aria-expanded="false" aria-controls="giochi">Novità</a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Novità</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#acquisti" role="button" aria-expanded="false" aria-controls="giochi">Fai acquisti
+                        </a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Fai acquisti</div>
-                        <i class="fas fa-chevron-down"></i>
-                    </li>
-                    <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">Supporto</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#supporto" role="button" aria-expanded="false" aria-controls="giochi">Supporto</a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                 </ul>
-
-                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 align-items-center">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0 align-items-lg-center">
                     <li class="nav-item d-flex align-items-center pl_h_li">
-                        <div class="nav-link text-dark fw-bold d-inline-block pl_h" href="">My PlayStation</div>
+                        <a class="nav-link text-dark fw-bold d-inline-block pl_h" data-bs-toggle="collapse"
+                            href="#playstation" role="button" aria-expanded="false" aria-controls="giochi">My
+                            PlayStation
+                        </a>
                         <i class="fas fa-chevron-down"></i>
                     </li>
                     <li class="nav-item pl_h_li">
-                        <button class="btn btn-dark ldark_b text-white border-0  px-3 py_8px fs_09"
+                        <button class="btn btn-dark ldark_b text-white border-0  px-3 py_8px"
                             type="button">Accedi</button>
                     </li>
                     <li>
-                        <i class="fas fa-search"></i>
+                        <i class="fas fa-search d_none find"></i>
                     </li>
                 </ul>
             </div>
+
         </nav>
+        <div class="collapse p-0 mt_5_z_1" id="giochi">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="hardware">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="servizi">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="novità">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="acquisti">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="supporto">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="collapse p-0 mt_5_z_1" id="playstation">
+            <div class="card card-body p-0">
+                <div class="ps_ico_logo">
+                    <div class="ps_ico_container d-flex container justify-content-center align-items-center">
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem, ipsum.</p>
+                        </div>
+                        <div class="ps_ico_text mr_15">
+                            <img class="w_75px" src="./img/play-menu-ico.png" alt="Playstation">
+                            <p class="mb-0">Lorem ipsum</p>
+                        </div>
+                    </div>
+                    <hr class="m-0">
+                    <ul class="d-flex justify-content-center align-items-center m-0 b_p">
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                        <li class="w_130 my-2">Lorem, ipsum.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
+
     <!-- Main -->
     <main>
         <div class="hero_container pt_80px">
             <div class="hero_background z_0">
                 <div class="container">
                     <div class="row">
-                        <div class="hero_content position-absolute text-white">
-                            <img class="hero_logo" src="./img/returnal-hero-banner-logo.png" alt="">
-                            <h2 class="hero_title mb-4">Rompi il cerchio</h2>
-                            <p class="hero_desc w_lg-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-                                veniam
-                                consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
-                            <button class="orange_b bg_in_hover_o text-white border-0 mb-4 px-2 py_8px fs_09"
-                                type="button">Acquista
-                                ora</button>
+                        <div class="container">
+                            <div class="hero_content position-absolute text-white">
+                                <img class="hero_logo" src="./img/returnal-hero-banner-logo.png" alt="">
+                                <h2 class="hero_title mb-4">Rompi il cerchio</h2>
+                                <p class="hero_desc w_lg-50">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Autem
+                                    veniam
+                                    consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
+                                <button class="orange_b bg_in_hover_o text-white border-0 mb-4 px-2 py_8px"
+                                    type="button">Acquista
+                                    ora</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -98,7 +297,7 @@
                     <img class="showcase_size b_b" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2 p-sm-3 p-lg-3 up_hover">
-                    <img class="showcase_size" class="showcase_size" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
+                    <img class="showcase_size" src="./img/ratchet-and-clank-rift-apart-keyart.jpg"
                         alt="Rachet and Clank">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2 p-sm-3 p-lg-3 up_hover">
@@ -127,8 +326,7 @@
                 <div class="col-12 col-md-6">
                     <h2 class="fs_al">Console la PlayStation 5</h2>
                     <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore.</p>
-                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px fs_09"
-                        type="button">Maggiori
+                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px" type="button">Maggiori
                         Informazioni</button>
                 </div>
                 <div class="col-12 col-md-6">
@@ -170,7 +368,7 @@
                         <p class="hero_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veniam
                             consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
                         <div class="bor_b">
-                            <button class="orange_b bg_in_hover_o text-white border-0 mb-5 px-2 py_8px fs_09"
+                            <button class="orange_b bg_in_hover_o text-white border-0 mb-5 px-2 py_8px"
                                 type="button">Acquista
                                 ora</button>
                         </div>
@@ -190,8 +388,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
@@ -199,8 +397,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
@@ -208,8 +406,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
@@ -217,8 +415,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
@@ -226,8 +424,8 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
@@ -235,15 +433,15 @@
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img class="showcase_size" class="showcase_size"
-                            src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot">
+                        <img class="showcase_size" src=" ./img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                            alt="Crash Bandicoot">
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container text-center">
-            <h2 class="fs_al position-relative mt-5">Esplora Playstation<span class="position-absolute">&copy;</span> 4
+            <h2 class="fs_al mt-5">Esplora Playstation<sup class="fs-5">&copy;</sup> 4
             </h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, sint!</p>
         </div>
@@ -253,7 +451,7 @@
                     <img class="w-100" src="./img/ps4-slim-homepage-image-block.jpg" alt="Playstation 4">
                     <h2 class="fs_al">PlayStation 4</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore.</p>
-                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px fs_09 bg_in_hover_a"
+                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px  bg_in_hover_a"
                         type="button">Scopri
                         di
                         più</button>
@@ -262,16 +460,17 @@
                     <img class="w-100" src="./img/double11-202010-tw-psvr.jpg" alt="Playstation VR">
                     <h2 class="fs_al">PlayStation VR</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore.</p>
-                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px fs_09" type="button">Scopri
+                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px " type="button">Scopri
                         di
                         più</button>
                 </div>
                 <div class="col-12 col-md-4">
                     <img class="w-100" src="./img/dualshock-4-listing-thumb.jpg" alt="Accessori">
                     <h2 class="fs_al">Accessori</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore.
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, labore.adipisicing elit.
+                        Numquam, labore.
                     </p>
-                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px fs_09" type="button">Scopri
+                    <button class="blue_b bg_in_hover_a text-white border-0 mb-4 px-2 py_8px " type="button">Scopri
                         di
                         più</button>
                 </div>
@@ -289,7 +488,7 @@
                                 veniam
                                 consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
                             <button
-                                class="btn btn-light btn_light  mb_0 text_azure border-0 mb-4 border_button px-2 py-2 fs_09"
+                                class="btn btn-light btn_light  mb_0 text_azure border-0 mb-4 border_button px-2 py-2 "
                                 type="button">Esplora
                                 PlayStation
                                 Plus</button>
@@ -333,7 +532,7 @@
                                 veniam
                                 consequatur incidunt facere ea temporibus dolorum a eligendi itaque officia!</p>
                             <button
-                                class="btn btn-light bg_in_hover_g b_0 mb_0 text-black border-0 mb-4 border_button px-2 py_8px fs_09 fw_700"
+                                class="btn btn-light bg_in_hover_g b_0 mb_0 text-black border-0 mb-4 border_button px-2 py_8px  fw_700"
                                 type="button">Esplora
                                 PlayStation
                                 now</button>

@@ -12,16 +12,41 @@ body{
 .pl_h{
  padding-right: 5px!important;
 }
+.mr_15{
+    margin-right: 15px;
+}
+.w_75px{
+    width: 75px;
+}
+/* Effetto sovraimpressione menu navbar */
+.mt_5_z_1{    
+    margin-top: -5px;
+    z-index: 0;
+}
 
 .pl_h_li{
     padding-right: 15px;
     cursor: pointer;
 }
 
-/* MAIN */
+.mw_vw{
+    max-width: 100vw;
+}
 
+.w_130{
+    width: 130px;
+}
+.b_p{
+list-style: none; 
+}
+
+.b_p li::before {
+content: "\2022";
+  color: #2D64E6;
+  padding-right: 5px;
+}
 .hero_background{
-    background-image: url(/img/jumbo-bg.png);
+    background-image: url(../img/jumbo-bg.png);
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +56,7 @@ body{
 }
 
 .hero_background_iit{
-    background-image: url(/img/it-takes-two-hero-banner-desktop.jpg);
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
      background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -69,7 +94,12 @@ body{
 .showcase_size{
 width: 100%;
 border-radius: 10px;
+cursor: pointer;
 }
+.btn_light:hover{
+    box-shadow: 0px 3px 25px white;
+}
+    
 
 .fs_vs{
     font-size: 0.8rem;
@@ -107,6 +137,14 @@ border-radius: 10px;
     display: none;
 }
 
+.p_11{
+    padding: 11px!important;
+}
+
+.b_b{
+    padding: 3px;
+    border: 2px solid blue;
+}
 .line{
     width: 100%;
     height: 5px;
@@ -140,16 +178,38 @@ border-radius: 10px;
     height: 40px;
 }
 
+.find{
+    cursor: pointer;
+}
 /* hover */
-.up_hover:hover{
-    margin-top: -10px;
-
+.ps_ico_text:hover{
+box-shadow: 1px 1px 10px black;
 }
 
+
+li:hover .nav-link:not(.find){
+    color: #2D64E6!important;
+}
+
+li:hover > i:not(.find){
+    color: #2D64E6!important;
+    transform: rotate(180deg);
+}
 .f_o_7:hover{
     filter: brightness(120%);
 }
 /* Media query */
+
+@media screen and (max-width: 576px){
+.p_11{
+    padding: 6px!important;
+}
+}
+@media screen and (min-width: 576px){
+.up_hover:hover{
+    margin-top: -10px;
+}
+}
 
 @media screen and (min-width: 768px){
   
@@ -201,7 +261,6 @@ border-radius: 10px;
 }
 
 }
-
 @media screen and (min-width: 1024px){
 .mt_50px{
     margin-top: 65px;
@@ -213,5 +272,24 @@ border-radius: 10px;
 .link_social_size{
     width: 50%!important;
     margin: 0 auto;
+}
+.d_none{
+  display: block;
+}
+}
+
+@media screen and (min-width: 1300px){
+.container{
+    width: 1300px;
+}
+.col-lg-6{
+    width: 50%!important;
+}
+.mt_50px{
+    margin-top: 130px;
+}
+
+.hero_background_iit{
+    margin-top: 25px;
 }
 }
